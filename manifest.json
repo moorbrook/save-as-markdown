@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Save as Markdown",
+  "version": "1.0",
+  "description": "Save any rendered page as a clean Markdown file. Works on X.com articles and any site.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "save-as-markdown@local",
+      "strict_min_version": "109.0"
+    }
+  },
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_title": "Save as Markdown",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
