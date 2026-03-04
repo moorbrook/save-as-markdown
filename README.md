@@ -1,6 +1,6 @@
 # Save as Markdown — Firefox Extension
 
-A Firefox extension that saves any web page as a clean, self-contained Markdown file. Built specifically to work on X.com articles (which block other tools like Instapaper), but works on any site.
+A Firefox extension that saves any web page as a clean, self-contained Markdown file. Built specifically to work on X.com articles (which block other tools like Instapaper).
 
 ## What it does
 
@@ -12,9 +12,6 @@ A Firefox extension that saves any web page as a clean, self-contained Markdown 
 
 Everything runs locally in your browser. Nothing is sent to any server.
 
-## Sharing
-
-Gmail blocks `.xpi` files. If you received `save-as-markdown@local.xpi.txt`, just rename it back to `save-as-markdown@local.xpi` before installing.
 
 ## Installation
 
